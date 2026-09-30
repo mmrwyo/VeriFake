@@ -1,0 +1,26 @@
+{
+  "best_params": {
+    "max_depth": 50,
+    "min_samples_leaf": 1
+  },
+  "cv_mcc": 0.8876491944124939,
+  "selection": "training-only CV for this protocol",
+  "model": "DT",
+  "protocol": "isot_to_kaggle",
+  "fit_seconds": 118.81672430038452,
+  "full_estimator_params": {
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": 50,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "random_state": 42,
+    "splitter": "best"
+  }
+}

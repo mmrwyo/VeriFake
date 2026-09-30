@@ -1,0 +1,27 @@
+{
+  "best_params": {
+    "C": 10
+  },
+  "cv_mcc": 0.9537083815139556,
+  "selection": "training-only CV for this protocol",
+  "model": "SVC-RBF",
+  "protocol": "random",
+  "fit_seconds": 710.9374079704285,
+  "full_estimator_params": {
+    "C": 10,
+    "break_ties": false,
+    "cache_size": 1000,
+    "class_weight": null,
+    "coef0": 0.0,
+    "decision_function_shape": "ovr",
+    "degree": 3,
+    "gamma": "scale",
+    "kernel": "rbf",
+    "max_iter": -1,
+    "probability": "deprecated",
+    "random_state": 42,
+    "shrinking": true,
+    "tol": 0.001,
+    "verbose": false
+  }
+}

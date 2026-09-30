@@ -1,0 +1,20 @@
+\begin{table}[t]
+\caption{Random-split results for title plus body on 4,052 Kaggle articles, ordered by training CV MCC. Acc., P, R, and F1 are percentages; MCC and AUC are unitless. P and R refer to fake articles.}
+\label{tab:primary}\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrr}\toprule
+Model & CV MCC & Acc. & P & R & F1 & MCC & AUC\\\midrule
+LinearSVC & 0.9607 & 98.15 & 97.98 & 98.23 & 98.10 & 0.9630 & 0.9977\\
+LR & 0.9584 & 98.17 & 98.03 & 98.23 & 98.13 & 0.9635 & 0.9977\\
+XGB & 0.9577 & 97.75 & 97.10 & 98.33 & 97.71 & 0.9551 & 0.9976\\
+SVC-RBF & 0.9537 & 97.90 & 97.68 & 98.02 & 97.85 & 0.9580 & 0.9975\\
+AdaBoost & 0.9385 & 96.22 & 95.19 & 97.16 & 96.16 & 0.9247 & 0.9943\\
+GB & 0.9375 & 96.59 & 95.45 & 97.67 & 96.54 & 0.9321 & 0.9934\\
+MLP & 0.9369 & 97.46 & 97.42 & 97.37 & 97.39 & 0.9491 & 0.9968\\
+RF & 0.9284 & 96.32 & 95.97 & 96.50 & 96.24 & 0.9264 & 0.9937\\
+ET & 0.9215 & 96.13 & 96.57 & 95.44 & 96.00 & 0.9225 & 0.9945\\
+DT & 0.8916 & 94.42 & 94.14 & 94.43 & 94.28 & 0.8884 & 0.9303\\
+MNB & 0.8785 & 93.58 & 96.78 & 89.82 & 93.17 & 0.8735 & 0.9899\\
+KNN & 0.8393 & 92.15 & 96.41 & 87.13 & 91.54 & 0.8463 & 0.9816\\
+BNB & 0.7850 & 89.49 & 85.97 & 93.72 & 89.68 & 0.7931 & 0.9440\\
+\bottomrule\end{tabular}\end{table}

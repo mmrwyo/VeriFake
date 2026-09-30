@@ -1,0 +1,24 @@
+{
+  "best_params": {
+    "C": 1
+  },
+  "cv_mcc": 0.9373001162342813,
+  "selection": "training-only CV for this protocol",
+  "model": "LinearSVC",
+  "protocol": "author_disjoint",
+  "fit_seconds": 43.32700991630554,
+  "full_estimator_params": {
+    "C": 1,
+    "class_weight": null,
+    "dual": "auto",
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "loss": "squared_hinge",
+    "max_iter": 5000,
+    "multi_class": "ovr",
+    "penalty": "l2",
+    "random_state": 42,
+    "tol": 0.0001,
+    "verbose": 0
+  }
+}

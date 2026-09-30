@@ -1,0 +1,16 @@
+{
+  "best_params": {
+    "alpha": 0.01
+  },
+  "cv_mcc": 0.8785493463100437,
+  "selection": "training-only CV for this protocol",
+  "model": "MNB",
+  "protocol": "random",
+  "fit_seconds": 57.49624943733215,
+  "full_estimator_params": {
+    "alpha": 0.01,
+    "class_prior": null,
+    "fit_prior": true,
+    "force_alpha": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "best_params": {
+    "n_neighbors": 15
+  },
+  "cv_mcc": 0.834715423183086,
+  "selection": "training-only CV for this protocol",
+  "model": "KNN",
+  "protocol": "isot_to_kaggle",
+  "fit_seconds": 80.81322526931763,
+  "full_estimator_params": {
+    "algorithm": "brute",
+    "leaf_size": 30,
+    "metric": "cosine",
+    "metric_params": null,
+    "n_jobs": 1,
+    "n_neighbors": 15,
+    "p": 2,
+    "weights": "distance"
+  }
+}

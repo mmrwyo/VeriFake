@@ -1,0 +1,53 @@
+{
+  "scope": "Training subset only. CPU is the prespecified primary backend; GPU comparison is diagnostic.",
+  "devices": {
+    "cpu": {
+      "metrics": {
+        "TN": 1617,
+        "FP": 45,
+        "FN": 28,
+        "TP": 1551,
+        "n": 3241,
+        "accuracy": 0.9774760876272756,
+        "precision": 0.9718045112781954,
+        "recall": 0.9822672577580748,
+        "f1": 0.9770078740157481,
+        "specificity": 0.9729241877256317,
+        "mcc": 0.9549873182717868,
+        "roc_auc": 0.9977727376997582
+      },
+      "sklearn_vs_dmatrix_max_abs_difference": 0.0,
+      "validation_score_quantiles": [
+        2.9377306418609805e-06,
+        1.7767232930054887e-05,
+        0.3073383569717407,
+        0.9999054431915283,
+        0.999981164932251
+      ]
+    },
+    "cuda": {
+      "metrics": {
+        "TN": 1616,
+        "FP": 46,
+        "FN": 27,
+        "TP": 1552,
+        "n": 3241,
+        "accuracy": 0.9774760876272756,
+        "precision": 0.9712140175219024,
+        "recall": 0.9829005699810006,
+        "f1": 0.977022348127164,
+        "specificity": 0.9723225030084236,
+        "mcc": 0.9550018428264405,
+        "roc_auc": 0.997794838848332
+      },
+      "sklearn_vs_dmatrix_max_abs_difference": 0.0,
+      "validation_score_quantiles": [
+        1.9406977571634343e-06,
+        1.623726057005115e-05,
+        0.3145903944969177,
+        0.9998901605606079,
+        0.9999948740005493
+      ]
+    }
+  }
+}

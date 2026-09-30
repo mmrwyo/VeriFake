@@ -1,0 +1,11 @@
+{
+  "title": "VeriFake: A TF-IDF and Ensemble Learning Framework for Web-Based Fake News Detection",
+  "selected_model": "LinearSVC",
+  "label_map": {
+    "0": "real",
+    "1": "fake"
+  },
+  "input": "Raw title + one space + raw body. Normalization is INCLUDED in the Pipeline.",
+  "score": "LinearSVC decision scores are not calibrated probabilities.",
+  "usage": "Keep verifake_text.py importable when loading. Fit uses all clean Kaggle rows; do not use this deployment object to evaluate the old held-out set."
+}

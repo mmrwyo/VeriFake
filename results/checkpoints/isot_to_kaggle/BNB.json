@@ -1,0 +1,17 @@
+{
+  "best_params": {
+    "alpha": 0.01
+  },
+  "cv_mcc": 0.9331252906027147,
+  "selection": "training-only CV for this protocol",
+  "model": "BNB",
+  "protocol": "isot_to_kaggle",
+  "fit_seconds": 53.48635816574097,
+  "full_estimator_params": {
+    "alpha": 0.01,
+    "binarize": 0.0,
+    "class_prior": null,
+    "fit_prior": true,
+    "force_alpha": true
+  }
+}

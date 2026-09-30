@@ -1,0 +1,12 @@
+{
+  "applied_utc": "2026-09-30T06:10:45.372459+00:00",
+  "patch": "verifake_estimator_metadata_nan_v1",
+  "original_sha256": "a441c5ee145484014649154fe150e0ceaa09ab527bfd800405c7481e6bc41bae",
+  "patched_sha256": "5e0186ac81cad3afdcafcc22d7bed64aaba387571033e649fb9faa8bf08f982f",
+  "patch_script_sha256": "378ac614605ae2e8e88382105543c198ca944a6cb2e5d0a93a76c2f847196d7e",
+  "scientific_changes": false,
+  "change": "Represent nonfinite estimator metadata as explicit strings. Keep strict numeric JSON validation for metrics.",
+  "checkpoint_policy": "Existing complete checkpoints preserved; incomplete XGB metadata causes XGB fitting to repeat.",
+  "original_identity_file": "run_identity_before_metadata_fix.json",
+  "prior_identity_sha256": "b47cd62f3c0aa63b4ea21d14f5df9caf6dae8bec9db2cebbec9cbce95fc7477b"
+}

@@ -1,0 +1,32 @@
+{
+  "best_params": {
+    "learning_rate": 0.1
+  },
+  "cv_mcc": 0.9063691046784753,
+  "selection": "training-only CV for this protocol",
+  "model": "GB",
+  "protocol": "author_disjoint",
+  "fit_seconds": 70.71749806404114,
+  "full_estimator_params": {
+    "ccp_alpha": 0.0,
+    "criterion": "deprecated",
+    "init": null,
+    "learning_rate": 0.1,
+    "loss": "log_loss",
+    "max_depth": 3,
+    "max_features": 0.1,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 300,
+    "n_iter_no_change": null,
+    "random_state": 42,
+    "subsample": 0.8,
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "best_params": {
+    "alpha": 0.01
+  },
+  "cv_mcc": 0.6984562763637747,
+  "selection": "training-only CV for this protocol",
+  "model": "BNB",
+  "protocol": "author_disjoint",
+  "fit_seconds": 50.285518407821655,
+  "full_estimator_params": {
+    "alpha": 0.01,
+    "binarize": 0.0,
+    "class_prior": null,
+    "fit_prior": true,
+    "force_alpha": true
+  }
+}

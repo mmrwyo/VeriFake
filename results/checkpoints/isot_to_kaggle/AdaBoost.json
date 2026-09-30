@@ -1,0 +1,17 @@
+{
+  "best_params": {
+    "learning_rate": 1.0,
+    "n_estimators": 400
+  },
+  "cv_mcc": 0.9486220142926792,
+  "selection": "training-only CV for this protocol",
+  "model": "AdaBoost",
+  "protocol": "isot_to_kaggle",
+  "fit_seconds": 597.6550686359406,
+  "full_estimator_params": {
+    "estimator": null,
+    "learning_rate": 1.0,
+    "n_estimators": 400,
+    "random_state": 42
+  }
+}

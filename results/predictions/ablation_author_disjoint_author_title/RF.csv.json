@@ -1,0 +1,17 @@
+{
+  "TN": 1821,
+  "FP": 389,
+  "FN": 0,
+  "TP": 1606,
+  "n": 3816,
+  "accuracy": 0.8980607966457023,
+  "precision": 0.8050125313283208,
+  "recall": 1.0,
+  "f1": 0.8919744515412386,
+  "specificity": 0.8239819004524886,
+  "mcc": 0.8144419902313352,
+  "roc_auc": 0.9796202588708631,
+  "predict_and_score_seconds": 0.6063973903656006,
+  "model": "RF",
+  "params": "{\"max_features\": \"sqrt\", \"min_samples_leaf\": 1}"
+}

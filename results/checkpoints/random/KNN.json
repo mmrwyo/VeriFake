@@ -1,0 +1,20 @@
+{
+  "best_params": {
+    "n_neighbors": 15
+  },
+  "cv_mcc": 0.8393179913489409,
+  "selection": "training-only CV for this protocol",
+  "model": "KNN",
+  "protocol": "random",
+  "fit_seconds": 62.781033992767334,
+  "full_estimator_params": {
+    "algorithm": "brute",
+    "leaf_size": 30,
+    "metric": "cosine",
+    "metric_params": null,
+    "n_jobs": 1,
+    "n_neighbors": 15,
+    "p": 2,
+    "weights": "distance"
+  }
+}

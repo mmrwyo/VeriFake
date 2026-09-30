@@ -1,0 +1,24 @@
+{
+  "best_params": {
+    "C": 10
+  },
+  "cv_mcc": 0.981934907880898,
+  "selection": "training-only CV for this protocol",
+  "model": "LinearSVC",
+  "protocol": "isot_to_kaggle",
+  "fit_seconds": 55.68018174171448,
+  "full_estimator_params": {
+    "C": 10,
+    "class_weight": null,
+    "dual": "auto",
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "loss": "squared_hinge",
+    "max_iter": 5000,
+    "multi_class": "ovr",
+    "penalty": "l2",
+    "random_state": 42,
+    "tol": 0.0001,
+    "verbose": 0
+  }
+}

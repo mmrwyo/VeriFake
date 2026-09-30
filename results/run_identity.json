@@ -1,0 +1,41 @@
+{
+  "source": {
+    "repair_verifake.py": "5e0186ac81cad3afdcafcc22d7bed64aaba387571033e649fb9faa8bf08f982f",
+    "verifake_text.py": "57b7e5aea04f1754c2838abad2c985081e0ddf203ce0e4e37325da9799c6bfd9"
+  },
+  "inputs": {
+    "train.csv": "d95147d5dea72ecd88cfe1a963cffeeaa524688e6a4a2767a579605e9f170343",
+    "Fake.csv": "bebf8bcfe95678bf2c732bf413a2ce5f621af0102c82bf08083b2e5d3c693d0c",
+    "True.csv": "ba0844414a65dc6ae7402b8eee5306da24b6b56488d6767135af466c7dcb2775"
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.2.0",
+    "scipy": "1.17.1",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2"
+  },
+  "smoke": false,
+  "models": [
+    "LR",
+    "MNB",
+    "BNB",
+    "LinearSVC",
+    "SVC-RBF",
+    "KNN",
+    "DT",
+    "RF",
+    "ET",
+    "AdaBoost",
+    "GB",
+    "MLP",
+    "XGB"
+  ],
+  "previous": {
+    "summary.json": "5562b9d5ff3e02ccf0f77415d94bc4507ae6d45c1bbf77426c2439b0c2cd7660",
+    "table_tuning_cv.csv": "61e3f0349e5426594e77c48656b5a81c4ebd93de0ac8cf99c4a847686e832592",
+    "heldout_predictions.csv": "ca81499b0494c1522d3542c7c258d655faca74c9f09a4e0365136a2fc8f5e75e"
+  }
+}

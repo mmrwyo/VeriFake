@@ -1,0 +1,26 @@
+{
+  "best_params": {
+    "C": 100
+  },
+  "cv_mcc": 0.9798857368928707,
+  "selection": "training-only CV for this protocol",
+  "model": "LR",
+  "protocol": "isot_to_kaggle",
+  "fit_seconds": 60.80945897102356,
+  "full_estimator_params": {
+    "C": 100,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": 0.0,
+    "max_iter": 2000,
+    "n_jobs": null,
+    "penalty": "deprecated",
+    "random_state": 42,
+    "solver": "liblinear",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  }
+}

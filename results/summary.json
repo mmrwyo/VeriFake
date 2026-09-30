@@ -1,0 +1,35 @@
+{
+  "title": "VeriFake: A TF-IDF and Ensemble Learning Framework for Web-Based Fake News Detection",
+  "smoke": false,
+  "seed": 42,
+  "selected_model": "LinearSVC",
+  "selected_by": "random training CV MCC",
+  "primary_reused_hyperparameters": false,
+  "protocol": "Each protocol tunes on its own training data. Known-author evaluation excludes missing authors. Reverse transfer tunes on ISOT only. Forward transfer uses Kaggle training CV parameters.",
+  "xgb_backend": "CPU hist prespecified; GPU tested only in training diagnostic",
+  "limitations": [
+    "Author disjointness is not publisher disjointness.",
+    "Exact duplicate control does not exclude all near duplicates or source/style cues.",
+    "The public datasets do not provide independent evidence-based fact verification.",
+    "One fixed outer split per protocol; bootstrap intervals condition on that split.",
+    "Source-dependent label construction can confound cross-dataset performance."
+  ],
+  "tfidf": {
+    "lowercase": "True",
+    "stop_words": "english",
+    "ngram_range": "(1, 2)",
+    "min_df": "3",
+    "max_df": "0.9",
+    "sublinear_tf": "True",
+    "max_features": "50000",
+    "dtype": "<class 'numpy.float32'>"
+  },
+  "train_n": 16205,
+  "test_n": 4052,
+  "author_train_n": 14618,
+  "author_test_n": 3816,
+  "isot_n": 38283,
+  "preprocessing": "Lowercase; remove URLs; letters/spaces only; collapse whitespace. No resampling or balancing.",
+  "ablation": "Within each protocol, freeze title+body-selected parameters across all input variants.",
+  "warning": "Review convergence warnings and the XGB diagnostic before final manuscript claims."
+}

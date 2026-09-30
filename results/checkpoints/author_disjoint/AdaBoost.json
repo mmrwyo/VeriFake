@@ -1,0 +1,17 @@
+{
+  "best_params": {
+    "learning_rate": 1.0,
+    "n_estimators": 400
+  },
+  "cv_mcc": 0.9192015511967734,
+  "selection": "training-only CV for this protocol",
+  "model": "AdaBoost",
+  "protocol": "author_disjoint",
+  "fit_seconds": 357.58063292503357,
+  "full_estimator_params": {
+    "estimator": null,
+    "learning_rate": 1.0,
+    "n_estimators": 400,
+    "random_state": 42
+  }
+}

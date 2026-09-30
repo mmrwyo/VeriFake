@@ -1,0 +1,21 @@
+{
+  "raw_n": 20800,
+  "clean_kaggle_n": 20257,
+  "clean_kaggle_labels": {
+    "0": 10387,
+    "1": 9870
+  },
+  "clean_isot_n": 38283,
+  "clean_isot_labels": {
+    "0": 20916,
+    "1": 17367
+  },
+  "primary_rows_unchanged_from_old_cleaning": false,
+  "author_missing_excluded_from_group_test": 1823,
+  "duplicate_scope": "Exact normalized bodies and title+body; cross-dataset canonical bodies and long titles. Near duplicates are not exhaustively removed.",
+  "labels": {
+    "0": "reliable/real",
+    "1": "unreliable/fake"
+  },
+  "balancing": "none"
+}
