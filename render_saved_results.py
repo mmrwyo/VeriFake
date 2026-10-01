@@ -1,4 +1,4 @@
-"""Render existing results for the manuscript. No training or inference."""
+"""Render confusion matrices and ROC curves from saved results. No training or inference."""
 from pathlib import Path
 import pandas as pd
 import matplotlib
